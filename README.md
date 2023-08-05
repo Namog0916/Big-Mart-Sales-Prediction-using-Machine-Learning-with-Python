@@ -13,22 +13,20 @@ Workflow
 
 2.Data Preprocessing:
 
-Handle missing values and outliers.
-Convert categorical variables to numerical.
 Split data into features (X) and target labels (y).
 3.Data Analysis:
-
 Perform exploratory data analysis (EDA).
+
 Visualize data distributions and relationships.
-Train-Test Split:
+5.Train-Test Split:
 
-5.Split data into training and testing sets.
-Model Training (Logistic Regression):
+Split data into training and testing sets.
+6.Model Training (Logistic Regression):
 
-6.Fit the logistic regression model on the training data.
-Evaluate Model:
+Fit the logistic regression model on the training data.
+7.Evaluate Model:
 
-7.Calculate accuracy score using accuracy_score.
+Calculate accuracy score using accuracy_score.
 Confusion Matrix Visualization:
 
 8.Create a confusion matrix.
