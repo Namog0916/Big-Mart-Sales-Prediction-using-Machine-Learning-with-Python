@@ -1,20 +1,35 @@
-![image](https://github.com/Namog0916/Credit-Card-Fraud-Detection-project/assets/126410835/c4badf1f-51a1-4f52-871b-89bea97dec99)
-
 Credit Card Fraud Detection Project
 
-This project aims to detect credit card fraud using Machine Learning techniques. It utilizes a dataset of credit card transactions labeled as either fraudulent or legitimate to train a predictive model. The goal is to develop a reliable and efficient system that can automatically identify fraudulent transactions and alert the relevant authorities to take appropriate actions.
+
+![image](https://github.com/Namog0916/Credit-Card-Fraud-Detection-project/assets/126410835/c4badf1f-51a1-4f52-871b-89bea97dec99)
+About the Dataset:The dataset contains transactions made by credit cards in September 2013 by European cardholders.
+This dataset presents transactions that occurred in two days, where we have 492 frauds out of 284,807 transactions. The dataset is highly unbalanced, the positive class (frauds) account for 0.172% of all transactions.
+
+It contains only numerical input variables which are the result of a PCA transformation. Unfortunately, due to confidentiality issues, we cannot provide the original features and more background information about the data. Features V1, V2, … V28 are the principal components obtained with PCA, the only features which have not been transformed with PCA are 'Time' and 'Amount'. Feature 'Time' contains the seconds elapsed between each transaction and the first transaction in the dataset. The feature 'Amount' is the transaction Amount, this feature can be used for example-dependant cost-sensitive learning. Feature 'Class' is the response variable and it takes value 1 in case of fraud and 0 otherwise.
 
 Workflow
-1.Import Necessary Libraries: Start by mentioning all the essential libraries and packages used in the project. These may include pandas, numpy, scikit-learn, seaborn, and matplotlib.
 
-2.Data Preprocessing: Explain the steps taken to preprocess the dataset before feeding it into the ML model. This could include handling missing values, scaling, and encoding categorical variables.
+1.Import necessary libraries (e.g., pandas, numpy, scikit-learn, seaborn, matplotlib).
 
-3.Exploratory Data Analysis (EDA): Provide an overview of the EDA process, highlighting any important patterns or insights gained from the data. Mention the plots and visualizations used to explore the data.
+2.Data Preprocessing:
 
-4.Train-Test Split: Describe how you divided the dataset into training and testing sets to avoid overfitting. Mention the ratio used for the split.
+Handle missing values and outliers.
+Convert categorical variables to numerical.
+Split data into features (X) and target labels (y).
+3.Data Analysis:
 
-5.Model Training: Explain how you trained the Machine Learning model using logistic regression. Mention any specific hyperparameters or configurations used.
+Perform exploratory data analysis (EDA).
+Visualize data distributions and relationships.
+Train-Test Split:
 
-6.Model Evaluation: Describe the process of evaluating the model's performance, including calculating the accuracy score on the test set.
+5.Split data into training and testing sets.
+Model Training (Logistic Regression):
 
-7.Confusion Matrix Visualization: Explain how you used seaborn to plot a heatmap of the confusion matrix. This visualization helps to understand the accuracy score and model performance better.
+6.Fit the logistic regression model on the training data.
+Evaluate Model:
+
+7.Calculate accuracy score using accuracy_score.
+Confusion Matrix Visualization:
+
+8.Create a confusion matrix.
+Plot heatmap using seaborn's heatmap.
