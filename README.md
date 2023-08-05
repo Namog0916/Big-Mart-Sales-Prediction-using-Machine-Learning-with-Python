@@ -9,22 +9,22 @@ It contains only numerical input variables which are the result of a PCA transfo
 
 ## Workflow
 
-1.Import necessary libraries (e.g., pandas, numpy, scikit-learn, seaborn, matplotlib).
+1.**Import necessary libraries**(e.g., pandas, numpy, scikit-learn, seaborn, matplotlib).
 
-2.Data Preprocessing:
+2.**Data Preprocessing:**
 Split data into features (X) and target labels (y).
 
-3.Data Analysis:Perform exploratory data analysis (EDA).<br>
+3.**Data Analysis:** Perform exploratory data analysis (EDA).<br>
 Visualize data distributions and relationships.
 
-5.Train-Test Split:
+5.**Train-Test Split:**
 Split data into training and testing sets.
 
-6.Model Training (Logistic Regression):
+6.**Model Training** (Logistic Regression):
 Fit the logistic regression model on the training data.
-7.Evaluate Model:
+7.**Evaluate Model:**
 Calculate accuracy score using accuracy_score.
 
-8.Confusion Matrix Visualization:
+8.**Confusion Matrix Visualization:**
 Create a confusion matrix.<br>
 Plot heatmap using seaborn's heatmap.
