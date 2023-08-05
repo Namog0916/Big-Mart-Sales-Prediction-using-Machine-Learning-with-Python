@@ -12,7 +12,6 @@ Workflow
 1.Import necessary libraries (e.g., pandas, numpy, scikit-learn, seaborn, matplotlib).
 
 2.Data Preprocessing:
-
 Split data into features (X) and target labels (y).
 
 3.Data Analysis:
