@@ -14,7 +14,7 @@ It contains only numerical input variables which are the result of a PCA transfo
 2.**Data Preprocessing:**
 Split data into features (X) and target labels (y).
 
-3.**Data Analysis:** Perform exploratory data analysis (EDA).<br>
+3.**Data Analysis:** * Perform exploratory data analysis (EDA).<br>
 * Visualize data distributions and relationships.
 
 5.**Train-Test Split:**
@@ -27,5 +27,5 @@ Fit the logistic regression model on the training data.
 Calculate accuracy score using accuracy_score.
 
 8.**Confusion Matrix Visualization:**
-Create a confusion matrix.<br>
-Plot heatmap using seaborn's heatmap.
+* Create a confusion matrix.
+* Plot heatmap using seaborn's heatmap.
