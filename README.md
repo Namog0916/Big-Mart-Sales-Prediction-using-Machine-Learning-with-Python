@@ -15,7 +15,7 @@ It contains only numerical input variables which are the result of a PCA transfo
 Split data into features (X) and target labels (y).
 
 3.**Data Analysis:** Perform exploratory data analysis (EDA).<br>
-Visualize data distributions and relationships.
+* Visualize data distributions and relationships.
 
 5.**Train-Test Split:**
 Split data into training and testing sets.
