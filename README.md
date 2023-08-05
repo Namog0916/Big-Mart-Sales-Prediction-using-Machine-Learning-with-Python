@@ -26,6 +26,5 @@ Fit the logistic regression model on the training data.
 Calculate accuracy score using accuracy_score.
 
 8.Confusion Matrix Visualization:
-Create a confusion matrix.
-
+Create a confusion matrix.<br>
 Plot heatmap using seaborn's heatmap.
