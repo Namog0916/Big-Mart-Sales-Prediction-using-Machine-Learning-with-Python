@@ -14,20 +14,25 @@ Workflow
 2.Data Preprocessing:
 
 Split data into features (X) and target labels (y).
+
 3.Data Analysis:
+
 Perform exploratory data analysis (EDA).
 
 Visualize data distributions and relationships.
 5.Train-Test Split:
 
 Split data into training and testing sets.
+
 6.Model Training (Logistic Regression):
 
 Fit the logistic regression model on the training data.
 7.Evaluate Model:
 
 Calculate accuracy score using accuracy_score.
-Confusion Matrix Visualization:
 
-8.Create a confusion matrix.
+8.Confusion Matrix Visualization:
+
+Create a confusion matrix.
+
 Plot heatmap using seaborn's heatmap.
