@@ -22,6 +22,7 @@ Split data into training and testing sets.
 
 6.**Model Training** (Logistic Regression):
 Fit the logistic regression model on the training data.
+
 7.**Evaluate Model:**
 Calculate accuracy score using accuracy_score.
 
