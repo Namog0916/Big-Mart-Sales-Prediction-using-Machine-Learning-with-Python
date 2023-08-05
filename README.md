@@ -20,6 +20,7 @@ Split data into features (X) and target labels (y).
 Perform exploratory data analysis (EDA).
 
 Visualize data distributions and relationships.
+
 5.Train-Test Split:
 
 Split data into training and testing sets.
