@@ -2,6 +2,8 @@
 
 ![image](https://github.com/Namog0916/Credit-Card-Fraud-Detection-project/assets/126410835/c4badf1f-51a1-4f52-871b-89bea97dec99)
 
+This project aims to detect credit card fraud using Machine Learning techniques. It utilizes a dataset of credit card transactions labeled as either fraudulent or legitimate to train a predictive model. The goal is to develop a reliable and efficient system that can automatically identify fraudulent transactions and alert the relevant authorities to take appropriate actions.
+
 **About the Dataset**:The dataset contains transactions made by credit cards in September 2013 by European cardholders.
 This dataset presents transactions that occurred in two days, where we have 492 frauds out of 284,807 transactions. The dataset is highly unbalanced, the positive class (frauds) account for 0.172% of all transactions.
 
